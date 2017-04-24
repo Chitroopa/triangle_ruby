@@ -1,3 +1,4 @@
+require('pry')
 class Triangle
   define_method(:initialize) do |side1, side2, side3|
     @side1 = side1
@@ -25,6 +26,8 @@ class Triangle
     else
       output = "not a triangle"
     end
+
+    output
   end
 
 end
